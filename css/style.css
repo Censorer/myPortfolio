@@ -109,6 +109,7 @@ body {
   padding: 24px 42px;
   font-size: 12px;
   line-height: 14px;
+  cursor: pointer;
 }
 
 .hero-avatar {
@@ -459,6 +460,12 @@ body {
 
   .contacts-form {
     margin-bottom: 58px;
+  }
+}
+
+@media (max-width: 587px) {
+  .swiper-slide-next {
+    opacity: 0;
   }
 }
 
